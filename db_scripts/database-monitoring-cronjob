@@ -1,0 +1,8 @@
+# Run monitoring every 10 minutes
+
+# Database monitoring:
+*/10 * * * * /opt/maintenance_software/db_scripts/check_cpu_ram_usage.sh
+*/10 * * * * /opt/maintenance_software/db_scripts/check_db_availability.sh
+*/10 * * * * /opt/maintenance_software/db_scripts/check_db_user_permissions.sh
+*/10 * * * * /opt/maintenance_software/db_scripts/check_safe_mode.sh
+*/10 * * * * /opt/maintenance_software/db_scripts/check_user_sessions.sh

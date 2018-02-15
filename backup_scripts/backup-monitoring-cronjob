@@ -1,0 +1,5 @@
+# Run monitoring every 10 minutes
+
+# Backup monitoring:
+*/10 * * * * /opt/maintenance_software/backup_scripts/check_disk_space.sh
+*/10 * * * * /opt/maintenance_software/backup_scripts/check_unpacking.sh
